@@ -1,0 +1,12 @@
+git init --> initialise an existing directory 
+git clone --> retrieve anentire repo from a hosted local 
+                  "stage and snapshot"
+git status --> show the modified files in the working directory >
+git add . ==> add a file as it looks now 
+
+git reset [file] unstage a file while retaining the changes in working directory git diff 
+diff of what is changed but not staged 
+git diff --staged diff of what is staged but not yet committed 
+git commit -m “[descriptive message]” 
+commit your staged content as a new commit snapshot 
+
