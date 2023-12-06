@@ -1,0 +1,4 @@
+technical/network error => mongodb server 
+show error page to user =>>
+working with errors 
+error is thrown => no error is thrown 
