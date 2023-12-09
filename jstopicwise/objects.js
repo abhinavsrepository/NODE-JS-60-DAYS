@@ -22,10 +22,13 @@ const chitbitdata ={
     avgcalorieburn:5755,
     workoutthisweek:'50r7time',
 
+}
+
     // specify steps 
     // collection of property 
     // object is container is key value storage 
     // 
 
 
-}
+// } single properyty 
+let data = {a:1,b:2,c:3};
