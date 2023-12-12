@@ -5,8 +5,9 @@ body{
     padding:0;
     letter-spacing: 0.5px;
 
-
-
+}
+h1{
+    font-family:Bitter,serif;
 }
 .content{
     max-width: 900px;
