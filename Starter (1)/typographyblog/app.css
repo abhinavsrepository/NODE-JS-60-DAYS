@@ -21,5 +21,9 @@ h6{
 }
 .info{
     text-align:center ;
+    text-transform: uppercase;
+    font-family: Bitter,serif;
+    font-weight:14px
+
 }
 
