@@ -3,7 +3,10 @@ function rollDiew(){
     console.log(`Rolled:${roll}`);
 
 }
-function throwDice(){
-    rollDiew();
-    rollDiew();
-}
+function throwDice(numRolls){
+
+    for (let i=0;i<numRolls; i++){
+        rollDiew();
+        
+    }
+}    
