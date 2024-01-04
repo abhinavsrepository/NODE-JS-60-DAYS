@@ -1,4 +1,4 @@
-let user ={
+let userdf ={
     name :"john",
     age:30 
 };
@@ -23,7 +23,7 @@ let user3 ={
         alert(this.name);// this is the current object
     }
 };
-user.sayHi();
+user1.sayHi();
 //  but code above is unrelaiable because of large program doesnt use it 
 let user4 ={
     name :"John",
@@ -60,4 +60,14 @@ function makeUser(){
         ref:this
     };
 }
+function makeUser() {
+    return {
+      name: "John",
+      ref: this
+    };
+  }
+  
+  let user = makeUser();
+  
+  alert( user.ref.name ); // What's the result?
 
