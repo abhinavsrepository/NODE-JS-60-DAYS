@@ -22,3 +22,8 @@ alert(accessAllowed);
 //let result =condition? value1:value2;
 // let accessAllowed =(ahe>18)?true:falses;
 let accessAllowed=age>18?true:false;
+// multiplse ternary operator
+let age =promp('age?',18);
+let message =(age<3)?'Hi,everyone':(age<18)?'hello':(age<100)?'Greetings':
+'what an unusual age!';
+alert (message);
