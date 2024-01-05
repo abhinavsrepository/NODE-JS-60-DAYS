@@ -20,7 +20,7 @@
 </script>
 
 <img id="img" src="https://en.js.cx/clipart/train.gif?speed=1&cache=0"></img> */}
-<script>
+{/* <script>
   document.addEventListener("DOMContentLoaded", () => {
     alert("DOM ready!");
   });
@@ -30,4 +30,6 @@
 
 <script>
   alert("Library loaded, inline script executed");
-</script>
+</script> */}
+
+const firstLi = document .querySelector()
